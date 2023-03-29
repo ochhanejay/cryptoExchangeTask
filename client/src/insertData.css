@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/legio-sabina');
+.text{
+    text-align: start;
+    /* font-family: 'Legio Sabina Title', sans-serif !important; */
+    font-family: 'Black Ops One', cursive !important;
+    -webkit-font-family: 'Black Ops One', cursive;
+    font-size: 4.2rem;
+    color: aquamarine;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    filter: drop-shadow(0rem 0rem 1rem red);
+}
+.textChai{
+    text-align: start;
+    /* font-family: 'Legio Sabina Title', sans-serif; */
+    font-family: 'Black Ops One', cursive !important;
+    font-size: 2.2rem;
+    color: red;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    
+}
+.homeTea{
+    width: 35rem;
+    margin-bottom: 3rem;
+   
+}
+.tea { 
+   
+    filter: drop-shadow(0 0 4rem green);
+  }
+  @media screen and (max-width: 480px) {
+    .homeTea{
+        display: none;
+       
+    }
+    .text{
+        text-align: start;
+        font-family: 'Black Ops One', cursive !important;
+        font-size: 4.1rem;
+        color: aquamarine !important;
+        margin-right: -10rem;
+        margin-top: 5rem;
+        filter: drop-shadow(0rem 0rem 1rem red);
+    }
+  }
