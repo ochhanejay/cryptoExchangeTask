@@ -73,9 +73,9 @@ exports.getExchangeList = async (req, res, next) => {
 exports.addExchangeData = async (req, res) => {
 
 
-    let icons = await axios.get(`https://rest.coinapi.io/v1/exchanges/icons/32?apikey=FDAB8705-CEAA-4A23-8A5B-6CC30B8D44D9`);
+    let icons = await axios.get(`https://rest.coinapi.io/v1/exchanges/icons/32?apikey=452778FC-E703-446F-93C3-8678F769F303`);
     try {
-        let data = await axios.get(`https://rest.coinapi.io/v1/exchanges?apikey=FDAB8705-CEAA-4A23-8A5B-6CC30B8D44D9`);
+        let data = await axios.get(`https://rest.coinapi.io/v1/exchanges?apikey=452778FC-E703-446F-93C3-8678F769F303`);
 
         const exchangeData = await cryptoModel.insertMany(data.data)
             .then(function (docs) {
